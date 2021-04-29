@@ -1,10 +1,6 @@
 import pyodbc as po
  
-# Connection variables
-server = 'localhost'
-database = 'Wide'
-username = 'SA'
-password = '5impsonPW!'
+
  
 # Connection string
 cnxn = po.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER=' +
